@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Naturehike Tours & Adventures</title>
 
-<link rel="stylesheet" href="bootstrap.min.css">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="responsive.css">
-
-<script src="jquery.min.js"></script>
-<script src="bootstrap.bundle.min.js"></script>
-
 <style>
+
 body{
-font-family:Arial;
 margin:0;
+font-family:Arial;
+background:#f4f4f4;
 }
 
 header{
-background:#0f2a30;
+background:#0e2d32;
 color:white;
 padding:20px;
 text-align:center;
 }
 
 .hero{
-background:url('SAFARIS.jpg');
-background-size:cover;
-background-position:center;
-padding:120px 20px;
-color:white;
+height:420px;
+background:url("SAFARIS.jpg") center/cover no-repeat;
+display:flex;
+align-items:center;
+justify-content:center;
 text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.btn{
+background:#e63946;
+color:white;
+padding:12px 25px;
+text-decoration:none;
+border-radius:5px;
 }
 
 .section{
-padding:40px 20px;
+padding:50px 20px;
 text-align:center;
 }
 
@@ -49,10 +58,10 @@ justify-content:center;
 
 .card{
 width:280px;
-border-radius:10px;
-overflow:hidden;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
 background:white;
+border-radius:10px;
+box-shadow:0 5px 10px rgba(0,0,0,0.1);
+overflow:hidden;
 }
 
 .card img{
@@ -63,23 +72,18 @@ width:100%;
 padding:10px;
 }
 
-.btn{
-display:inline-block;
-padding:10px 20px;
-background:#0f2a30;
-color:white;
-text-decoration:none;
-border-radius:5px;
-margin:10px;
+.gallery img{
+width:300px;
+border-radius:8px;
 }
 
 footer{
-background:#0f2a30;
+background:#0e2d32;
 color:white;
-padding:30px;
+padding:40px;
 text-align:center;
-margin-top:40px;
 }
+
 </style>
 
 </head>
@@ -87,17 +91,52 @@ margin-top:40px;
 <body>
 
 <header>
+
 <h1>Naturehike Tours & Adventures</h1>
-<p>Tanzania Safari & Kilimanjaro Experts</p>
+<p>Tanzania Safari Experts</p>
+
 </header>
 
+
 <section class="hero">
-<h1>Explore Tanzania With Us</h1>
-<p>Wildlife Safaris • Mount Kilimanjaro • Zanzibar Beaches</p>
-<a class="btn" href="#safari">View Safari Packages</a>
+
+<div>
+<h1>Explore Tanzania Safaris</h1>
+<p>Serengeti • Ngorongoro • Kilimanjaro • Zanzibar</p>
+<a class="btn">View Packages</a>
+</div>
+
 </section>
 
-<section class="section" id="safari">
+
+<section class="section">
+
+<h2>Explore Top Destination</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="SAFARIS.jpg">
+<h3>Safari Adventures</h3>
+</div>
+
+<div class="card">
+<img src="KILIMANJARO.jpg">
+<h3>Mount Kilimanjaro</h3>
+</div>
+
+<div class="card">
+<img src="ZANZIBAR.jpg">
+<h3>Zanzibar Beaches</h3>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
 
 <h2>Popular Safari Tours</h2>
 
@@ -106,47 +145,128 @@ margin-top:40px;
 <div class="card">
 <img src="3-DAYS-LUXURY-SAFARI.jpg">
 <h3>3 Days Luxury Safari</h3>
-<a class="btn" href="#">View Tour</a>
+<a class="btn">View Tour</a>
 </div>
 
 <div class="card">
 <img src="5-DAYS-CLASSIC-LODGE-SAFARI.jpg">
 <h3>5 Days Classic Lodge Safari</h3>
-<a class="btn" href="#">View Tour</a>
+<a class="btn">View Tour</a>
 </div>
 
 <div class="card">
 <img src="8-DAYS-SERENGETI-GREAT-MIGRATION.jpg">
 <h3>8 Days Serengeti Migration</h3>
-<a class="btn" href="#">View Tour</a>
+<a class="btn">View Tour</a>
 </div>
 
 </div>
 
 </section>
+
+
+
+<section class="section">
+
+<h2>Mount Kilimanjaro Routes</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="KILIMANJARO.jpg">
+<h3>Machame Route</h3>
+</div>
+
+<div class="card">
+<img src="KILIMANJARO.jpg">
+<h3>Lemosho Route</h3>
+</div>
+
+<div class="card">
+<img src="KILIMANJARO.jpg">
+<h3>Marangu Route</h3>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
+
+<h2>Zanzibar Beach Holidays</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="ZANZIBAR.jpg">
+<h3>3 Days Zanzibar Beach</h3>
+</div>
+
+<div class="card">
+<img src="ZANZIBAR.jpg">
+<h3>5 Days Zanzibar Holiday</h3>
+</div>
+
+<div class="card">
+<img src="ZANZIBAR.jpg">
+<h3>7 Days Luxury Zanzibar</h3>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section gallery">
+
+<h2>Safari Photo Gallery</h2>
+
+<img src="SAFARIS.jpg">
+<img src="KILIMANJARO.jpg">
+<img src="3-DAYS-LUXURY-SAFARI.jpg">
+
+</section>
+
+
 
 <section class="section">
 
 <h2>About Naturehike Tours</h2>
 
 <p>
-Naturehike Tours & Adventures offers unforgettable safari experiences
-across Tanzania including Serengeti, Ngorongoro Crater, Mount Kilimanjaro,
-and Zanzibar Beach Holidays.
+
+Naturehike Tours & Adventures is a trusted Tanzania travel company offering
+wildlife safaris, Mount Kilimanjaro trekking adventures, and Zanzibar beach
+holidays.
+
+Our experienced guides provide unforgettable journeys across Africa's most
+beautiful destinations including Serengeti National Park, Ngorongoro Crater,
+Tarangire National Park, and the famous Mount Kilimanjaro.
+
 </p>
 
 </section>
 
+
+
 <footer>
 
-<p>Contact Us</p>
+<h3>Contact Us</h3>
 
 <p>+255 763 528 605</p>
+
 <p>info@naturehiketours.com</p>
+
+<p>Arusha – Tanzania</p>
 
 <p>© 2025 Naturehike Tours & Adventures</p>
 
 </footer>
 
+
+
 </body>
-</html>
+  </html>
