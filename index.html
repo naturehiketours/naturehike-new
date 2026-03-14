@@ -1,416 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Naturehike Tours</title>
+<title>Naturehike Tours & Adventures</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
 
 body{
+font-family:Arial;
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:black;
-color:white;
+background:#f5f5f5;
 }
 
 header{
 background:black;
+color:white;
 padding:15px;
 text-align:center;
 font-size:22px;
-font-weight:bold;
-}
-
-.hero{
-background:url("https://images.unsplash.com/photo-1501785888041-af3ef285b470") center/cover no-repeat;
-height:320px;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-}
-
-.hero h1{
-background:rgba(0,0,0,0.6);
-padding:20px;
-border-radius:10px;
 }
 
 .section{
-padding:40px 20px;
-text-align:center;
+padding:30px;
 }
 
 .cards{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
+display:grid;
+grid-template-columns:1fr;
 gap:20px;
 }
 
 .card{
-background:#111;
-width:300px;
-border-radius:12px;
-padding:15px;
+background:white;
+border-radius:10px;
+overflow:hidden;
 }
 
 .card img{
 width:100%;
-border-radius:10px;
+}
+
+.card h3{
+padding:10px;
+}
+
+.card p{
+padding:0 10px 10px 10px;
 }
 
 button{
-background:#ff6600;
+background:#25D366;
 border:none;
 color:white;
-padding:10px 15px;
-margin:5px;
+padding:12px;
+width:90%;
+margin:10px;
 border-radius:6px;
-cursor:pointer;
+font-size:16px;
 }
 
-button:hover{
-background:#ff7f26;
-}
-
-.whatsapp{
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
+footer{
+background:#263238;
 color:white;
-padding:12px 20px;
-border-radius:30px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.social{
-position:fixed;
-top:120px;
-right:10px;
-display:flex;
-flex-direction:column;
-gap:10px;
-}
-
-.social img{
-width:30px;
+padding:30px;
+margin-top:40px;
 }
 
 </style>
+
 </head>
 
 <body>
 
-<header style="display:flex;justify-content:space-between;align-items:center;padding:15px;background:black;color:white;">
-
-<h2>Naturehike Tours</h2>
-
-<nav>
-<a href="#" style="color:white;margin:10px;text-decoration:none;">Home</a>
-<a href="#" style="color:white;margin:10px;text-decoration:none;">Safaris</a>
-<a href="#" style="color:white;margin:10px;text-decoration:none;">Kilimanjaro</a>
-<a href="#" style="color:white;margin:10px;text-decoration:none;">Zanzibar</a>
-<a href="#" style="color:white;margin:10px;text-decoration:none;">Contact</a>
-</nav>
-
+<header>
+Naturehike Tours & Adventures
 </header>
-<div class="hero">
-<h1 style="font-size:42px;">
-Explore Tanzania With Naturehike Tours
-</h1>
 
-<p style="font-size:18px;margin-top:10px;">
-Wildlife Safaris • Mount Kilimanjaro • Zanzibar Beach Holidays
-</p>
 
-<a href="#safari">
-<button style="margin-top:20px;">View Safari Packages</button>
-</a>
-
-</div>
 <section class="section">
 
 <h2>Popular Safari Tours</h2>
 
 <div class="cards">
 
+
 <div class="card">
 <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801">
+
 <h3>3 Days Serengeti Safari</h3>
+
 <p>Experience Tanzania's most famous wildlife park.</p>
+
 <a href="serengeti-safari.html">
 <button>View Tour Details</button>
 </a>
+
 </div>
+
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+
 <h3>4 Days Ngorongoro Safari</h3>
+
 <p>Explore the stunning Ngorongoro crater ecosystem.</p>
+
 <a href="ngorongoro-safari.html">
 <button>View Tour Details</button>
 </a>
+
 </div>
+
 
 <div class="card">
 <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+
 <h3>5 Days Tarangire Safari</h3>
+
 <p>Discover elephants and baobab landscapes.</p>
+
 <a href="tarangire-safari.html">
 <button>View Tour Details</button>
 </a>
+
 </div>
 
 </div>
 
 </section>
-  <section class="section">
 
-<h2>Safari Photo Gallery</h2>
 
-<div class="cards">
+<footer>
 
-<div class="card">j
-<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801">
-</div>
+<h2>About Us</h2>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526779259212-756e7c6b5c7b">
-</div>
-
-</div>
-
-  </section>
-  <section class="section">
-
-<h2>Travel Activities in Tanzania</h2>
-
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526779259212-756e7c6b5c7b">
-<h3>Cultural Village Tours</h3>
-<p>Visit local Maasai villages and experience traditional Tanzanian culture.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-<h3>Waterfall Hikes</h3>
-<p>Explore beautiful waterfalls and scenic hiking trails near Mount Kilimanjaro.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-<h3>Coffee Farm Tours</h3>
-<p>Discover how Tanzanian coffee is grown and processed on local farms.</p>
-</div>
-
-</div>
-
-  </section>
-  <section class="section">
-
-<h2>Book Your Adventure</h2>
-
-<form style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:10px;">
-
-<input type="text" placeholder="Your Name" required style="padding:10px;border-radius:5px;border:none;">
-
-<input type="email" placeholder="Your Email" required style="padding:10px;border-radius:5px;border:none;">
-
-<input type="text" placeholder="Tour Package (Safari / Kilimanjaro / Zanzibar)" style="padding:10px;border-radius:5px;border:none;">
-
-<textarea placeholder="Your Message" rows="4" style="padding:10px;border-radius:5px;border:none;"></textarea>
-
-<button type="submit" style="background:#ff6600;border:none;color:white;padding:12px;border-radius:5px;">
-Send Inquiry
-</button>
-
-</form>
-
-  </section>
-<section id="safari" class="section">
-<h2>Wildlife Safari Packages</h2>
-
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801">
-<h3>Serengeti National Park</h3>
-<p>Experience the world famous Serengeti wildlife.</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-<h3>Ngorongoro Crater</h3>
-<p>Discover animals inside the beautiful crater.</p>
-<a href="ngorongoro-safari.html">
-<button>View Tour Details</button>
-</a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
-<h3>Tarangire National Park</h3>
-<p>Famous for elephants and baobab trees.</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-</div>
-</section>
-
-<section id="zanzibar" class="section">
-<h2>Zanzibar Beach Holidays</h2>
-
-<div class="cards">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
-<h3>3 Days Zanzibar Beach Holiday</h3>
-<p>Enjoy relaxing white sand beaches.</p>
-<a href="zanzibar-3days.html">
-<button>View Tour Details</button>
-</a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1526779259212-756e7c6b5c7b">
-<h3>5 Days Zanzibar Island Tour</h3>
-<p>Explore beaches, spice farms and Stone Town.</p>
-<a href="serengeti-safari.html"><button>View Tour Details</button></a>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
-<h3>7 Days Zanzibar Luxury Holiday</h3>
-<p>Luxury resorts and unforgettable ocean views.</p>
-<a href="zanzibar-7days.html">
-<button>View Tour Details</button>
-</a>
-</div>
-
-</div>
-</section>
-  <section class="section">
-
-<h2>About Naturehike Tours</h2>
-
-<p style="max-width:800px;margin:auto;line-height:1.6;">
-Naturehike Tours & Adventures is a trusted Tanzania travel company based in Arusha.
-We specialize in unforgettable wildlife safaris, Mount Kilimanjaro climbing adventures,
-and relaxing Zanzibar beach holidays.
-
-Our experienced guides, personalized service, and passion for adventure ensure that
-every traveler experiences the best of Tanzania's natural beauty and culture.
+<p>
+Naturehike Tours & Safari invites you on a journey across Africa with unforgettable wildlife experiences.
 </p>
 
-  </section>
+<h3>Quick Links</h3>
 
-<section id="kilimanjaro" class="section">
-<h2>Mount Kilimanjaro Routes</h2>
+<p>About Us</p>
+<p>Safaris</p>
+<p>Destinations</p>
+<p>Contact</p>
 
-<div class="cards">
+<h3>Contact</h3>
 
-<div class="card">
-<h3>Machame Route</h3>
-<p>Duration: 7 Days</p>
-<p>Price: $1800</p>
-<a href="machame-route.html">
-<button>View Route Details</button>
-</a>
-<div class="card">
-<h3>Rongai Route</h3>
-<p>Duration: 7 Days</p>
-<p>Price: $1900</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-<div class="card">
-<h3>Umbwe Route</h3>
-<p>Duration: 6 Days</p>
-<p>Price: $1800</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-<div class="card">
-<h3>Northern Circuit Route</h3>
-<p>Duration: 9 Days</p>
-<p>Price: $2300</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-</div>
-
-<div class="card">
-<h3>Lemosho Route</h3>
-<p>Duration: 8 Days</p>
-<p>Price: $2100</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-<div class="card">
-<h3>Marangu Route</h3>
-<p>Duration: 6 Days</p>
-<p>Price: $1700</p>
-<button onclick="window.open('https://wa.me/255764528605')">Book on WhatsApp</button>
-</div>
-
-</div>
-</section>
-
-<a class="whatsapp" href="https://wa.me/255764528605">Chat on WhatsApp</a>
-
-<div class="social">
-<a href="https://facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"></a>
-<a href="https://instagram.com"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"></a>
-<a href="https://tiktok.com"><img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png"></a>
-</div>
-<section id="contact" class="section">
-<h2>Contact Naturehike Tours</h2>
-
-<p>Arusha, Tanzania</p>
+<p>Phone: +255 763 528 605</p>
 <p>Email: info@naturehiketours.com</p>
-<p>Phone: +255 764 528 605</p>
-
-<div style="margin-top:20px;">
-<iframe
-src="https://maps.google.com/maps?q=Arusha%20Tanzania&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="100%"
-height="300"
-style="border:0;border-radius:10px;">
-</iframe>
-</div>
-
-</section>
-  <footer style="background:#000;padding:30px;text-align:center;color:white;">
-
-<h3>Naturehike Tours & Adventures</h3>
-
-<p>Email: info@naturehiketours.com</p>
-<p>Phone: +255 764 528 605</p>
-
-<div style="margin-top:15px;">
-<a href="https://www.facebook.com/share/1AjbwDDR6w/" style="color:white;margin:10px;">Facebook</a>
-<a href="https://instagram.com/naturehiketours" style="color:white;margin:10px;">Instagram</a>
-<a href="https://www.tiktok.com/@revochristi" style="color:white;margin:10px;">TikTok</a>
-</div>
-
-<p style="margin-top:20px;font-size:14px;">
-© 2025 Naturehike Tours & Adventures. All rights reserved.
-</p>
 
 </footer>
+
+
 </body>
-  </html>
+</html>
